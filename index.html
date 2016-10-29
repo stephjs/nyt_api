@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href= "assets/css/nyt.css">
+	<title>New York Times Search</title>
+</head>
+<body>
+
+<div class="jumbotron">	
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4">
+			<img id="nyt" src="https://static1.squarespace.com/static/547fad3be4b01c408c292fe5/55524dd7e4b092ca32b26354/55524dd8e4b0c14095c83e2c/1431457287081/the-new-york-times-logo-vert.png"/>
+		</div>
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4"><div class="row"><div class="col-sm-12">
+			<div class="panel">
+
+				<div class="panel-heading">
+					<h3 class="panel-title">API Search</h3>
+				</div>
+
+				<div class="panel-body">
+					<form id="searchForm">
+						<input type="text" class="form-control" id="searched" placeholder="Search Term" required>
+			
+						<input type="text" class="form-control" id="startYear" placeholder="Start Year (Optional)">
+				
+						<input type="text" class="form-control" id="endYear" placeholder="End Year (Optional)">
+						
+						<input type="submit" class="btn btn-default"/>
+					</form>
+				</div>
+			</div>	
+		</div></div></div>
+		<div class="col-sm-1"></div>
+	</div>
+</div>
+
+<div class="container" id="searchResults">
+	<div class="row"><div class="col-sm-12"><div class="panel">	
+		
+		<div class="panel-heading">
+			<h3 class="panel-title" id="whatArticles"></h3>
+		</div>
+
+		<div class="panel-body" id="articlesHere">
+		</div>	
+
+	</div></div></div>
+</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/javascript/nyt.js"></script>
+
+</body>
+</html>

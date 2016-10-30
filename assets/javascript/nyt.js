@@ -28,6 +28,7 @@ $('#searchForm').submit(function(){
 
 	$("#whatArticles").html('Top 10 "'+searched+'" Articles');
 	runQuery(queryURL);
+	$("form").trigger("reset");
 	return false;
 });
 

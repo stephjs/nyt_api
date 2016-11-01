@@ -1,13 +1,15 @@
 # New York Times Archive Search
 
-This Javascript / jQuery web application allows users to quickly and easily find New York Times articles based on a search term and optional start and end date parameters. Then application uses the New York Times Article Search API to return the top 10 article results.
+**[https://nytapi-search.herokuapp.com](https://nytapi-search.herokuapp.com)**
+
+This Javascript / jQuery web application allows users to quickly and easily find New York Times articles based on a search term and optional start and end year parameters. Then the application uses the New York Times Article Search API to return the top 10 most relevant article results.
+
+![imageedit_2_5416036631](https://cloud.githubusercontent.com/assets/18673328/19897138/2420ba3c-a014-11e6-9e0a-a594882932f5.jpg)
 
 ## API Work with [**The New York Times Article Search API**](https://developer.nytimes.com/)
 
-- All searches require a **search term**. Then the search is performed on the article body, headline and byline to find results containing the specific query term.
+- All searches require a **search term**. The NYT API looks for the search term in the headlines, bylines and article bodies of archived articles to return results containing the specific search term.
 
-- Optional search including **start year**, restricting responses to results with publication dates of the year specified or later.
+- **Start year** is an optional parameter that restricts responses to results with publication dates of the year specified or later.
 
-- Optional search including **end year**, restricting responses to results with publication dates of the year specified or earlier.
-
-![screen shot 2016-10-30 at 9 12 21 am](https://cloud.githubusercontent.com/assets/18673328/19837912/2b3f4066-9e81-11e6-9b18-5aea7384b987.png)
+- **End year**, also an optional parameter, restricts responses to results with publication dates of the year specified or earlier.

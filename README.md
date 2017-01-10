@@ -13,3 +13,8 @@ This Javascript / jQuery web application allows users to quickly and easily find
 - **Start year** is an optional parameter that restricts responses to results with publication dates of the year specified or later.
 
 - **End year**, also an optional parameter, restricts responses to results with publication dates of the year specified or earlier.
+
+
+## Built With
+
+HTML, CSS, JavaScript, jQuery, AJAX requests to the New York Times Article Search API, Bootstrap

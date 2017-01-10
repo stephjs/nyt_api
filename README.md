@@ -1,6 +1,6 @@
 # New York Times Archive Search
 
-**[https://nytapi-search.herokuapp.com](https://nytapi-search.herokuapp.com)**
+**[https://stephorpilla.github.io/nyt_api/](https://stephorpilla.github.io/nyt_api/)**
 
 This Javascript / jQuery web application allows users to quickly and easily find New York Times articles based on a search term and optional start and end year parameters. Then the application uses the New York Times Article Search API to return the top 10 most relevant article results.
 

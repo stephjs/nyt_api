@@ -19,11 +19,14 @@ $('#searchForm').submit(function(){
 		queryURL = queryURL + "&begin_date=" + startYear + "0101";
 	}
 	else {
-		queryURL = queryURL + "&begin_date=20160101";
+		queryURL = queryURL + "&begin_date=20170101";
 	}
 
 	if (parseInt(endYear)) {
 		queryURL = queryURL + "&end_date=" + endYear + "0101";
+	}
+	else {
+		queryURL = queryURL + "&end_date=20171212";
 	}
 
 	$("#whatArticles").html('Top 10 "'+searched+'" Articles');
